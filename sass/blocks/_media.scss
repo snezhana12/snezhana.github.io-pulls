@@ -1,0 +1,346 @@
+@media (max-width: 991px) {
+    .container {
+        max-width: 750px;
+    }
+    .promo {
+        min-height: 550px;
+        padding: 21px 16px 40px 16px;
+        img {
+            width: 70%;
+        }
+        .header {
+            &__official {
+                font-size: 10px;
+                span {
+                    font-size: 15px;
+                }
+            }
+            &__phone {
+                font-size: 15px;
+            }
+        }
+        &__header {
+                font-size: 30px;
+        }
+        &__subheader {
+            margin-top: 12px;
+            font-size: 18px;
+        }
+        &__icons {
+            justify-content: right;
+            margin-right: 10px;
+            margin-top: 45px;
+            width: 350px;
+            img {
+                width: 35%;
+            }
+        }
+    }
+    .advantages {
+        padding: 50px 10px 50px 10px;
+        justify-content: flex-end;
+        &__item {
+            min-width: 220px;
+        }
+        &__descr {
+            font-size: 11px;
+        }
+    }
+    .consultation {
+        min-height: 630px;
+        padding: 60px 16px 130px 16px;
+        .title {
+            &_left {
+                font-size: 28px;
+                line-height: 40px;
+            }
+        }
+    }
+    .carousel {
+        padding: 50px 100px;
+        &__inner {
+            position: relative;
+            width: 500px;
+
+            img {
+                width: 500px;
+                height: 100%;
+            }
+        }
+        .slick-prev, .slick-next{
+            position: absolute;
+            top: 30%;
+            transform: translateY(-50%);
+            left: -66px;
+            border: none;
+            background-color: #fff;
+            img {
+                width: 31px;
+                height: 50px;
+            }
+        }
+        .slick-next {
+            right: -66px;
+            left: auto;
+        }
+    }
+    .catalog {
+        padding: 10px 30px;
+    }
+    .reviews {
+        &__icon {
+            width: 60px;
+            height: 60px;
+            margin-right: 150px;
+        }
+        &__descr {
+            width: 500px;
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 50px;
+        }
+
+    }
+    .footer {
+        &__info {
+            padding: 30px 68px 30px 68px;
+            width: 400px;
+            height: 210px;
+        }
+        &__addr {
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__phone {
+            font-size: 16px;
+            line-height: 16px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        .header {
+            &__phone {
+                font-size: 13px;
+            }
+        }
+        &__wrapper {
+            align-items: flex-start;
+        }
+        .button {
+            width: 130px;
+            height: 25px;
+            font-size: 11px;
+            &_main {
+                width: 190px;
+                height: 50px;
+                font-size: 14px;
+            }
+        }
+    }
+    .advantages {
+        padding: 50px 10px 50px 10px;
+        &__wrapper {
+            display: inline;
+            position: relative;
+        }
+        &__item {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 350px;
+        }
+        &__descr {
+            font-size: 16px;
+        }
+        
+    }
+    .consultation {
+        min-height: 630px;
+        padding: 60px 10px 130px 10px;
+        .title {
+            &_left {
+                font-size: 24px;
+                line-height: 34px;
+                text-align: center;
+            }
+        &__descr {
+            align-items: c;
+            }
+        }
+    }
+    .carousel {
+        padding: 50px 100px;
+        &__inner {
+            position: relative;
+            width: 400px;
+
+            img {
+                width: 350px;
+                height: 100%;
+            }
+        }
+        .slick-prev, .slick-next{
+            position: absolute;
+            top: 40%;
+            transform: translateY(-50%);
+            left: -44px;
+            border: none;
+            background-color: #fff;
+            img {
+                width: 25px;
+                height: 44px;
+            }
+        }
+        .slick-next {
+            right: 0px;
+            left: auto;
+        }
+    }
+    .catalog {
+        padding: 10px 30px;
+        .catalog-item {
+            width: 250px;
+            &__old-price {
+                font-size: 11px;
+            }
+            &__price {
+                font-size: 15px;
+            }
+        }
+    }
+    .reviews {
+        padding-bottom: 10px;
+        .title {
+            padding-bottom: 30px;
+        }
+        &__icon {
+            margin-right: 90px;
+            margin-left: 10px;
+            img {
+                margin-top: 45%;
+                width: 120px;
+                height: 120px;  
+            }
+            
+        }
+        &__descr {
+            width: 400px;
+            font-size: 12px;
+            line-height: 18px;
+            margin-bottom: 50px;
+            margin-right: 10px;
+            text-align: justify;
+        }
+    }
+    .footer {
+        &__info {
+            padding: 30px 68px 30px 68px;
+            width: 300px;
+            height: 150px;
+        }
+        &__addr {
+            font-size: 10px;
+            line-height: 10px;
+            margin-bottom: 15px;
+        }
+        &__phone {
+            font-size: 10px;
+            line-height: 10px;
+            margin-bottom: 15px;
+        }
+        &__social-item {
+            width: 40px;
+            height: 40px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .carousel {
+        padding: 50px 90px;
+        &__inner {
+            position: relative;
+            width: 300px;
+
+            img {
+                width: 250px;
+                height: 100%;
+            }
+        }
+        .slick-prev, .slick-next{
+            position: absolute;
+            top: 55%;
+            transform: translateY(-50%);
+            left: -85px;
+            border: none;
+            background-color: #fff;
+            img {
+                width: 20px;
+                height: 38px;
+            }
+        }
+        .slick-next {
+            right: -15px;
+            left: auto;
+        }
+    }
+    .catalog {
+        &__tab {
+            font-size: 12px;
+        }
+        .catalog-item {
+            width: 175px;
+            a {
+                margin-bottom: 0px;
+            }
+            hr {
+                margin-top: 0;
+            }
+            &__subtitle {
+                font-style: 14px;
+            }
+            img {
+                height: 150px;
+            }
+        }
+    }
+    .reviews {
+        &__title {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        &__subtitle {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        &__descr {
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        &__item {
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+        &__text {
+            margin-top: 100px;
+            width: 280px;
+        }
+        &__icon {
+            display: block;
+            margin-left: 30%; 
+        }
+}
+}
